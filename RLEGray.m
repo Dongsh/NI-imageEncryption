@@ -1,4 +1,4 @@
-image = imread('/Users/Dongsh/Desktop/A.png');  % 读取图像image
+image = imread('~/Desktop/D.png');  % 读取图像image
 imageA = rgb2gray(image);   % 灰度图像处理
 imageB = imageA(:);         % 将二维图像摊平为一位数列
 lengthB = length(imageB);   
