@@ -1,5 +1,5 @@
 clear
-% uiopen('/Users/Dongsh/Desktop/A.png',1)
+% uiopen('~/Desktop/A.png',1)
 image = imread('/Users/Dongsh/Desktop/logo.png');
 figure,imshow(image),title('ԭͼ');
 % imageA = rgb2gray(image);
