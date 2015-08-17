@@ -7,7 +7,9 @@ function [S,sz]=LZW(x)			% S为编码，sz为字典中新短语的个数，x为原消息
 	ss=1;						% ss表示输出压缩码的个数
 	j=2; 
 	while j<= n 	% 遍历     
+        
 		i=n;
+        y=j
 		h=1;	     
 		while ( i>=j+1 && h>0 )        
 			sx=x(j:i);        
